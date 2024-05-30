@@ -164,6 +164,7 @@ export default defineComponent({
 
     const init = async () => {
       await getUsers();
+      /*
       const response = await axios.get(
         "https://jsonplaceholder.typicode.com/users"
       );
@@ -171,6 +172,7 @@ export default defineComponent({
       data.forEach((x: UserInterface) => {
         users.value.push(x);
       });
+      */
     };
 
     onMounted(async () => {
